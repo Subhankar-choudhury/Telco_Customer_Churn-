@@ -145,19 +145,19 @@ The above visualization compares the performance of both models and highlights t
 
 ## 9. Repository Structure
 
-```# Ignore model artifacts
-*.pkl
+```
+training_code/
+    └── train.py
 
-# Ignore generated csv test files
-X_test.csv
-y_test.csv
+evaluation_code/
+    └── evaluate.py
 
-# Ignore Python cache
-__pycache__/
-*.pyc
+WA_Fn-UseC_-Telco-Customer-Churn.csv
+error_analysis.png
+README.md
+LICENSE
+.gitignore
 
-# Ignore system files
-.DS_Store
 
 ```
 
