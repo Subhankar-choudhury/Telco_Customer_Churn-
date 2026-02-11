@@ -1,10 +1,6 @@
 # Ignore trained model files
 *.pkl
 
-# Ignore generated test datasets
-X_test.csv
-y_test.csv
-
 # Ignore Python cache files
 __pycache__/
 *.pyc
