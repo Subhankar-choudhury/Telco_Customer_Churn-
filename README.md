@@ -137,8 +137,7 @@ Confusion matrices were generated for both models and compared to analyze classi
 
 ### Confusion Matrix Comparison
 
-![Confusion Matrix Comparison](<img width="1400" height="600" alt="image" src="https://github.com/user-attachments/assets/ca228f2f-5e37-47bf-a820-9b3b05c5450e" />
-)
+<img width="1400" height="600" alt="image" src="https://github.com/user-attachments/assets/c057e854-09e5-4d17-81c8-e30d636ef17d" />
 
 The above visualization compares the performance of both models and highlights the improved model’s ability to better classify churn customers.
 
