@@ -145,15 +145,20 @@ The above visualization compares the performance of both models and highlights t
 
 ## 9. Repository Structure
 
-```
-train.py               -> Data preprocessing and model training
-evaluation.py          -> Model evaluation and confusion matrix visualization
-baseline_model.pkl     -> Saved Logistic Regression model
-improved_model.pkl     -> Saved Gradient Boosting model
-scaler.pkl             -> Saved feature scaler
-X_test.csv             -> Saved test features
-y_test.csv             -> Saved test labels
-error_analysis.png     -> Confusion matrix visualization
+```# Ignore model artifacts
+*.pkl
+
+# Ignore generated csv test files
+X_test.csv
+y_test.csv
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+
 ```
 
 ---
